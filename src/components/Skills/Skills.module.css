@@ -1,0 +1,41 @@
+.container {
+  overflow: hidden;
+  height: 300px;
+  text-align: center;
+  color: #ffff;
+
+  background-color: #0085ff;
+
+  & .skills_title {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  & .skills_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 70px;
+
+    & li {
+      margin: 0 40px;
+      & svg {
+        width: 80px;
+        height: inherit;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    & .skills_list {
+      flex-direction: column;
+      margin: 50px 0;
+      & li {
+        margin: 20px 0;
+      }
+    }
+  }
+}
