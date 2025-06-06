@@ -12,12 +12,10 @@ function Contact() {
       <div className={styles.contact_info}>
         <h4>Get in touch</h4>
         <p className={styles.contact_Desc}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet in
-          optio architecto expedita amet possimus laudantium. Magni eaque soluta
-          voluptas.
+         
         </p>
         <p className={styles.contact_Address}>
-          123 Main Street <br></br> 
+          310 Moo 9, Maeyen, Phan <br></br> 
           Bangkok, Thailand
         </p>
         <p className={styles.contact_InfoDetails}>
