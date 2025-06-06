@@ -27,7 +27,7 @@ function Hero() {
               />
             </p>
             <p className={styles.text_4}>
-                เ
+                Dev / IT support
             </p>
             <ul className={styles.hero_social}>
               <li>
